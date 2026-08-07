@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Admin Panel | Mishra Classes</title>
+
+
+<link rel="icon" href="../images/logo.png">
+
+
+
+<!-- CSS -->
+
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/admin.css">
+<link rel="stylesheet" href="../css/animations.css">
+<link rel="stylesheet" href="../css/responsive.css">
+
+
+</head>
+
+
+
+
+<body class="admin-page">
+
+
+
+<!-- BACKGROUND -->
+
+<div class="bg-logo"></div>
+
+
+
+
+
+
+
+<!-- SIDEBAR -->
+
+
+<aside class="admin-sidebar glass">
+
+
+
+<div class="admin-logo">
+
+
+<img src="../images/logo.png" alt="Mishra Classes">
+
+
+<h2>
+Mishra Classes
+</h2>
+
+
+</div>
+
+
+
+
+
+
+<ul>
+
+
+<li>
+<a href="admin.html" class="active">
+📊 Dashboard
+</a>
+</li>
+
+
+
+<li>
+<a href="#">
+👥 Users
+</a>
+</li>
+
+
+
+<li>
+<a href="#">
+📚 Courses
+</a>
+</li>
+
+
+
+<li>
+<a href="#">
+⚙ Settings
+</a>
+</li>
+
+
+
+<li>
+<a href="index.html">
+🌐 Website
+</a>
+</li>
+
+
+</ul>
+
+
+
+
+
+
+<button id="adminLogout" class="logout-btn">
+
+Logout
+
+</button>
+
+
+
+
+</aside>
+
+
+
+
+
+
+
+
+
+<!-- MAIN ADMIN AREA -->
+
+
+<main class="admin-content">
+
+
+
+
+
+<header class="admin-header">
+
+
+<div>
+
+
+<h1>
+Admin Dashboard 🚀
+</h1>
+
+
+<p>
+Manage Mishra Classes platform.
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="admin-profile glass">
+
+
+<h3>
+CEO Admin
+</h3>
+
+
+<p id="adminEmail">
+Loading...
+</p>
+
+
+</div>
+
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<!-- ANALYTICS CARDS -->
+
+
+<section class="analytics-cards">
+
+
+
+
+
+<div class="analytics-card glass">
+
+
+<h3>
+👥 Total Users
+</h3>
+
+
+<h1 id="totalUsers">
+0
+</h1>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="analytics-card glass">
+
+
+<h3>
+🎓 Students
+</h3>
+
+
+<h1 id="studentUsers">
+0
+</h1>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="analytics-card glass">
+
+
+<h3>
+👨‍💼 Admins
+</h3>
+
+
+<h1 id="adminUsers">
+0
+</h1>
+
+
+</div>
+
+
+
+
+
+
+
+
+<div class="analytics-card glass">
+
+
+<h3>
+📈 Growth
+</h3>
+
+
+<h1>
++0%
+</h1>
+
+
+</div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- CHART SECTION -->
+
+
+<section class="chart-section glass">
+
+
+<h2>
+User Growth Analytics
+</h2>
+
+
+<canvas id="userChart"></canvas>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- LATEST USERS -->
+
+
+<section class="users-section glass">
+
+
+<h2>
+Latest Registered Users
+</h2>
+
+
+
+
+
+<table>
+
+
+<thead>
+
+<tr>
+
+<th>
+Name
+</th>
+
+
+<th>
+Email
+</th>
+
+
+<th>
+Class
+</th>
+
+
+<th>
+Role
+</th>
+
+
+</tr>
+
+
+</thead>
+
+
+
+
+
+<tbody id="usersTable">
+
+
+<tr>
+
+<td colspan="4">
+
+Loading Users...
+
+</td>
+
+</tr>
+
+
+</tbody>
+
+
+
+</table>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+<!-- FIREBASE + CHART -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<script type="module" src="../js/admin.js"></script>
+
+
+</body>
+
+
+</html>

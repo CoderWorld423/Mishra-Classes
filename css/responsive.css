@@ -1,0 +1,555 @@
+/* =====================================
+   MISHRA CLASSES RESPONSIVE CSS
+===================================== */
+
+
+
+
+
+/* =====================================
+   TABLET DEVICES
+===================================== */
+
+
+@media(max-width:1100px){
+
+
+
+.navbar{
+
+    padding:20px 5%;
+
+}
+
+
+
+.navbar nav{
+
+    gap:15px;
+
+}
+
+
+
+
+
+.hero-content h1{
+
+    font-size:45px;
+
+}
+
+
+
+
+
+
+/* Dashboard */
+
+
+.dashboard-content{
+
+    margin-left:300px;
+
+    width:calc(100% - 320px);
+
+}
+
+
+
+
+.dashboard-cards{
+
+    grid-template-columns:
+
+    repeat(2,1fr);
+
+}
+
+
+
+
+
+
+/* Analytics */
+
+
+.analytics-cards{
+
+    grid-template-columns:
+
+    repeat(2,1fr);
+
+}
+
+
+
+
+
+
+.learning-grid{
+
+    grid-template-columns:
+
+    repeat(2,1fr);
+
+}
+
+
+
+
+
+
+.profile-section{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   MOBILE DEVICES
+===================================== */
+
+
+@media(max-width:768px){
+
+
+
+
+
+body{
+
+    overflow-x:hidden;
+
+}
+
+
+
+
+
+/* NAVBAR */
+
+
+.navbar{
+
+    padding:15px 20px;
+
+}
+
+
+
+.navbar nav{
+
+
+    position:absolute;
+
+    top:75px;
+
+    left:20px;
+
+    right:20px;
+
+
+    display:none;
+
+
+    flex-direction:column;
+
+    padding:20px;
+
+
+    background:rgba(5,8,22,.95);
+
+
+    border-radius:15px;
+
+
+}
+
+
+
+.navbar nav.active{
+
+    display:flex;
+
+}
+
+
+
+
+.menu-btn{
+
+    display:block;
+
+    cursor:pointer;
+
+}
+
+
+
+
+
+/* HERO */
+
+
+.page-hero{
+
+    padding-top:120px;
+
+}
+
+
+
+.hero-content h1{
+
+    font-size:34px;
+
+}
+
+
+
+.hero-content p{
+
+    font-size:15px;
+
+}
+
+
+
+
+
+
+
+
+
+/* SIDEBAR */
+
+
+.sidebar,
+.admin-sidebar{
+
+
+    position:relative;
+
+
+    width:100%;
+
+
+    height:auto;
+
+
+    top:0;
+
+
+    left:0;
+
+
+    margin:15px;
+
+
+}
+
+
+
+
+.dashboard-page,
+.admin-page{
+
+
+    display:block;
+
+
+}
+
+
+
+
+
+
+
+/* DASHBOARD */
+
+
+.dashboard-content,
+.admin-content{
+
+
+    margin-left:0;
+
+
+    width:100%;
+
+
+    padding:20px;
+
+
+}
+
+
+
+
+.dashboard-header,
+.admin-header{
+
+
+    flex-direction:column;
+
+
+    align-items:flex-start;
+
+
+    gap:20px;
+
+
+}
+
+
+
+
+.dashboard-header h1,
+.admin-header h1{
+
+
+    font-size:30px;
+
+
+}
+
+
+
+
+
+.dashboard-cards{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+
+
+.learning-grid{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+
+
+/* ADMIN CARDS */
+
+
+.analytics-cards{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+
+.chart-box{
+
+
+    height:250px;
+
+
+}
+
+
+
+
+
+/* TABLE */
+
+
+table{
+
+
+    min-width:650px;
+
+
+}
+
+
+
+
+
+.table-wrapper{
+
+
+    overflow-x:auto;
+
+
+}
+
+
+
+
+
+/* PROFILE */
+
+
+.profile-form,
+.profile-card{
+
+
+    padding:20px;
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+
+@media(max-width:480px){
+
+
+
+.logo h2{
+
+    font-size:18px;
+
+}
+
+
+
+
+
+.hero-content h1{
+
+    font-size:28px;
+
+}
+
+
+
+
+
+.btn-primary,
+.login-btn{
+
+
+    width:100%;
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+
+
+.analytics-card h1{
+
+
+    font-size:32px;
+
+
+}
+
+
+
+
+
+.sidebar{
+
+    padding:18px;
+
+}
+
+
+
+
+footer{
+
+
+    padding:30px 15px;
+
+
+}
+
+
+
+.footer-links{
+
+
+    flex-direction:column;
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   LANDSCAPE MOBILE
+===================================== */
+
+
+@media(max-height:500px)
+and (orientation:landscape){
+
+
+
+.page-hero{
+
+
+    min-height:100vh;
+
+
+}
+
+
+
+}

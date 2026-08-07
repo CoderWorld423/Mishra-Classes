@@ -1,0 +1,666 @@
+/* =====================================
+   MISHRA CLASSES ANIMATIONS CSS
+===================================== */
+
+
+
+
+
+/* =====================================
+   PAGE LOAD ANIMATION
+===================================== */
+
+
+body{
+
+    animation:pageLoad .8s ease;
+
+}
+
+
+
+@keyframes pageLoad{
+
+
+from{
+
+    opacity:0;
+
+    transform:translateY(15px);
+
+}
+
+
+to{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   FLOATING BACKGROUND LOGO
+===================================== */
+
+
+.bg-logo{
+
+
+    animation:floatLogo 8s ease-in-out infinite;
+
+
+}
+
+
+
+@keyframes floatLogo{
+
+
+0%{
+
+    transform:translateY(0px) scale(1);
+
+}
+
+
+50%{
+
+    transform:translateY(-25px) scale(1.05);
+
+}
+
+
+100%{
+
+    transform:translateY(0px) scale(1);
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   GLASS CARD ANIMATION
+===================================== */
+
+
+.glass{
+
+
+    transition:.4s ease;
+
+
+}
+
+
+
+.glass:hover{
+
+
+    transform:translateY(-6px);
+
+    box-shadow:
+
+    0 20px 40px rgba(0,212,255,.15);
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   BUTTON ANIMATION
+===================================== */
+
+
+.btn-primary,
+.login-btn,
+.btn-secondary{
+
+
+    position:relative;
+
+    overflow:hidden;
+
+
+}
+
+
+
+.btn-primary::before,
+.login-btn::before{
+
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:-100%;
+
+    width:100%;
+
+    height:100%;
+
+
+    background:
+
+    linear-gradient(
+
+    120deg,
+
+    transparent,
+
+    rgba(255,255,255,.35),
+
+    transparent
+
+    );
+
+
+    transition:.5s;
+
+
+}
+
+
+
+.btn-primary:hover::before,
+.login-btn:hover::before{
+
+
+    left:100%;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   GLOW EFFECT
+===================================== */
+
+
+.glow{
+
+
+    animation:glowPulse 2s infinite;
+
+
+}
+
+
+
+@keyframes glowPulse{
+
+
+0%{
+
+
+box-shadow:
+
+0 0 10px rgba(0,212,255,.3);
+
+
+}
+
+
+
+50%{
+
+
+box-shadow:
+
+0 0 30px rgba(0,212,255,.7);
+
+
+}
+
+
+
+100%{
+
+
+box-shadow:
+
+0 0 10px rgba(0,212,255,.3);
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   CARD FLOAT ANIMATION
+===================================== */
+
+
+.service-card,
+.class-card,
+.dash-card,
+.analytics-card{
+
+
+    animation:cardFloat 5s ease-in-out infinite;
+
+
+}
+
+
+
+
+
+@keyframes cardFloat{
+
+
+0%{
+
+    transform:translateY(0);
+
+}
+
+
+50%{
+
+    transform:translateY(-8px);
+
+}
+
+
+100%{
+
+    transform:translateY(0);
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   TEXT GRADIENT ANIMATION
+===================================== */
+
+
+.hero-content span{
+
+
+    background-size:200% auto;
+
+
+    animation:textGradient 4s linear infinite;
+
+
+}
+
+
+
+@keyframes textGradient{
+
+
+0%{
+
+    background-position:0% center;
+
+}
+
+
+100%{
+
+    background-position:200% center;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   FADE SECTIONS
+===================================== */
+
+
+.fade-in{
+
+
+    opacity:0;
+
+    animation:fadeIn 1s forwards;
+
+
+}
+
+
+
+@keyframes fadeIn{
+
+
+from{
+
+
+opacity:0;
+
+transform:translateY(40px);
+
+
+}
+
+
+to{
+
+
+opacity:1;
+
+transform:translateY(0);
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   LOGIN POPUP ANIMATION
+===================================== */
+
+
+.auth-card{
+
+
+    animation:loginPop .7s ease;
+
+
+}
+
+
+
+@keyframes loginPop{
+
+
+from{
+
+
+opacity:0;
+
+transform:
+
+scale(.8)
+
+translateY(40px);
+
+
+}
+
+
+
+to{
+
+
+opacity:1;
+
+transform:
+
+scale(1)
+
+translateY(0);
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   CURSOR GLOW
+===================================== */
+
+
+.cursor-glow{
+
+
+    position:fixed;
+
+    width:25px;
+
+    height:25px;
+
+    border-radius:50%;
+
+    background:
+
+    rgba(0,212,255,.35);
+
+
+    pointer-events:none;
+
+    transform:
+
+    translate(-50%,-50%);
+
+
+    filter:blur(8px);
+
+    z-index:9999;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   RIPPLE CLICK EFFECT
+===================================== */
+
+
+.clicked{
+
+
+    transform:scale(.95)!important;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   LOADING ANIMATION
+===================================== */
+
+
+.loading{
+
+
+    animation:
+
+    loadingRotate 1s linear infinite;
+
+
+}
+
+
+
+@keyframes loadingRotate{
+
+
+from{
+
+transform:rotate(0deg);
+
+}
+
+
+to{
+
+transform:rotate(360deg);
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =====================================
+   SHINE EFFECT
+===================================== */
+
+
+.shine{
+
+
+position:relative;
+
+overflow:hidden;
+
+
+}
+
+
+
+.shine::after{
+
+
+content:"";
+
+position:absolute;
+
+top:0;
+
+left:-100%;
+
+width:50%;
+
+height:100%;
+
+
+background:
+
+rgba(255,255,255,.2);
+
+
+transform:skewX(-25deg);
+
+
+animation:shineMove 3s infinite;
+
+
+}
+
+
+
+@keyframes shineMove{
+
+
+0%{
+
+left:-100%;
+
+}
+
+
+50%{
+
+left:150%;
+
+}
+
+
+100%{
+
+left:150%;
+
+}
+
+
+}

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Settings | Mishra Classes</title>
+
+
+<link rel="icon" href="../images/logo.png">
+
+
+<!-- CSS -->
+
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/dashboard.css">
+<link rel="stylesheet" href="../css/animations.css">
+<link rel="stylesheet" href="../css/responsive.css">
+
+
+</head>
+
+
+
+<body class="dashboard-page">
+
+
+
+<!-- BACKGROUND -->
+
+<div class="bg-logo"></div>
+
+
+
+
+
+
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar glass">
+
+
+
+<div class="sidebar-logo">
+
+
+<img src="../images/logo.png" alt="Mishra Classes">
+
+
+<h2>
+Mishra Classes
+</h2>
+
+
+</div>
+
+
+
+
+
+
+<ul>
+
+
+<li>
+
+<a href="dashboard.html">
+🏠 Dashboard
+</a>
+
+</li>
+
+
+
+<li>
+
+<a href="profile.html">
+👤 Profile
+</a>
+
+</li>
+
+
+
+
+<li>
+
+<a href="settings.html" class="active">
+⚙ Settings
+</a>
+
+</li>
+
+
+
+
+<li>
+
+<a href="index.html">
+🌐 Website
+</a>
+
+</li>
+
+
+
+</ul>
+
+
+
+
+
+
+<button id="logoutBtn" class="logout-btn">
+
+Logout
+
+</button>
+
+
+
+
+</aside>
+
+
+
+
+
+
+
+
+
+<!-- MAIN CONTENT -->
+
+
+<main class="dashboard-content">
+
+
+
+
+
+<header class="dashboard-header">
+
+
+<div>
+
+<h1>
+Settings ⚙
+</h1>
+
+
+<p>
+Manage your account preferences.
+</p>
+
+
+</div>
+
+
+</header>
+
+
+
+
+
+
+
+
+
+<!-- SETTINGS CARDS -->
+
+
+<section class="settings-container">
+
+
+
+
+
+
+
+<!-- ACCOUNT SETTINGS -->
+
+
+<div class="settings-card glass">
+
+
+<h2>
+👤 Account Settings
+</h2>
+
+
+
+<div class="setting-row">
+
+
+<div>
+
+<h3>
+Profile Visibility
+</h3>
+
+
+<p>
+Control your profile information.
+</p>
+
+
+</div>
+
+
+
+<label class="switch">
+
+<input type="checkbox" checked>
+
+<span></span>
+
+</label>
+
+
+
+</div>
+
+
+
+
+
+
+<div class="setting-row">
+
+
+<div>
+
+<h3>
+Email Updates
+</h3>
+
+
+<p>
+Receive important learning updates.
+</p>
+
+
+</div>
+
+
+
+<label class="switch">
+
+<input type="checkbox" checked>
+
+<span></span>
+
+</label>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- SECURITY -->
+
+
+<div class="settings-card glass">
+
+
+<h2>
+🔐 Security
+</h2>
+
+
+
+
+<div class="setting-action">
+
+
+<h3>
+Change Password
+</h3>
+
+
+<p>
+Update your account password.
+</p>
+
+
+<button class="btn-secondary">
+
+Change
+
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="setting-action">
+
+
+<h3>
+Two Step Verification
+</h3>
+
+
+<p>
+Add extra security to your account.
+</p>
+
+
+<button class="btn-secondary">
+
+Enable
+
+</button>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- APPEARANCE -->
+
+
+<div class="settings-card glass">
+
+
+<h2>
+🌙 Appearance
+</h2>
+
+
+
+
+<div class="setting-row">
+
+
+<div>
+
+<h3>
+Dark Mode
+</h3>
+
+
+<p>
+Change website theme.
+</p>
+
+
+</div>
+
+
+
+<label class="switch">
+
+<input 
+type="checkbox"
+id="darkModeToggle">
+
+<span></span>
+
+</label>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- DANGER ZONE -->
+
+
+<div class="settings-card glass danger-zone">
+
+
+<h2>
+⚠ Account Actions
+</h2>
+
+
+
+
+<div class="setting-action">
+
+
+<h3>
+Logout Account
+</h3>
+
+
+<p>
+Sign out from this device.
+</p>
+
+
+<button 
+id="logoutSettings"
+class="logout-btn">
+
+Logout
+
+</button>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+
+
+<script type="module" src="../js/settings.js"></script>
+
+
+</body>
+
+</html>

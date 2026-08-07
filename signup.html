@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Signup | Mishra Classes</title>
+
+<meta name="description" content="Create your Mishra Classes student account.">
+
+
+<link rel="../images/logo.png">
+
+
+<!-- CSS -->
+
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/animations.css">
+<link rel="stylesheet" href="../css/responsive.css">
+
+
+</head>
+
+
+
+<body class="auth-page">
+
+
+<div class="bg-logo"></div>
+
+
+
+<section class="auth-section">
+
+
+<div class="auth-card glass">
+
+
+
+<div class="auth-logo">
+
+
+<img src="../images/logo.png" alt="Mishra Classes">
+
+
+<h2>
+Mishra Classes
+</h2>
+
+
+</div>
+
+
+
+
+
+<h1>
+Create Account
+</h1>
+
+
+<p>
+Join Mishra Classes and start learning today.
+</p>
+
+
+
+
+
+
+<form id="signupForm">
+
+<div class="input-group">
+
+<label>
+Full Name
+</label>
+
+
+<input type="text"id="signupName"placeholder="Enter your name"required>
+
+
+</div>
+
+<div class="input-group">
+
+
+<label>
+Email Address
+</label>
+
+
+<input type="email"id="signupEmail"placeholder="Enter your email"required>
+
+
+<div id="signupMessage"></div>
+
+
+
+
+
+
+
+<div class="input-group">
+
+
+<label>
+Password
+</label>
+
+</div>
+
+<div class="password-box">
+    <input type="password" id="signupPassword" placeholder="Create Password" required>
+    <span id="toggleSignupPassword" class="toggle-password">👁️</span>
+</div>
+
+<div class="input-group">
+
+
+<label>
+Confirm Password
+</label>
+
+
+</div>
+<div class="password-box">
+    <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+    <span id="toggleConfirmPassword" class="toggle-password">👁️</span>
+</div>
+
+<div class="input-group">
+
+
+<label>
+Select Class
+</label>
+
+
+<select id="studentClass" required>
+
+
+<option value="">
+Choose Class
+</option>
+
+
+<option value="9">
+Class 9th
+</option>
+
+
+<option value="10">
+Class 10th
+</option>
+
+
+<option value="11">
+Class 11th
+</option>
+
+
+<option value="12">
+Class 12th
+</option>
+
+
+</select>
+
+
+</div>
+
+
+
+
+
+
+
+<button 
+type="submit"
+class="btn-primary">
+
+Create Account
+
+</button>
+
+
+
+</form>
+
+
+
+
+
+
+
+
+<div class="divider">
+
+<span>
+OR
+</span>
+
+</div>
+
+
+
+
+
+
+
+<button 
+id="googleSignup"
+class="google-btn">
+
+
+<img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg">
+
+
+Continue with Google
+
+
+</button>
+
+
+
+
+
+
+
+
+<p class="auth-footer">
+
+
+Already have an account?
+
+
+<a href="login.html">
+Login Here
+</a>
+
+
+</p>
+
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+
+
+<script type="module" src="../js/auth.js"></script>
+
+<script src="../js/script.js"></script>
+
+
+
+</body>
+
+</html>
