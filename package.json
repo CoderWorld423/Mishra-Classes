@@ -1,0 +1,19 @@
+{
+  "name": "mishra-classes",
+  "version": "1.0.0",
+  "description": "Mishra Classes - Best Coaching Center in Bareilly",
+  "scripts": {
+    "build": "echo 'No build step required for vanilla HTML project'",
+    "lint": "echo 'No linter configured'"
+  },
+  "keywords": [
+    "coaching",
+    "education",
+    "bareilly"
+  ],
+  "author": "Rajeev Kumar Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  }
+}
