@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin.html
+Disallow: /dashboard.html
+Disallow: /profile.html
+Disallow: /settings.html
+Disallow: /login.html
+Disallow: /signup.html
+
+Sitemap: https://mishra-classes-xi.vercel.app/sitemap.xml
